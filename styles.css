@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #0072ff;
+}
+
+main {
+    padding-top: 70px;
+}
+
+section {
+    padding: 50px 20px;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+#home {
+    background-color: #0072ff;
+}
+
+#about {
+    background-color: #00c6ff;
+}
+
+#services {
+    background-color: #005bea;
+}
+
+#contact {
+    background-color: #00d084;
+}
+
+section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+.scroll-active {
+    background-color: rgba(0, 0, 0, 0.8);
+}
